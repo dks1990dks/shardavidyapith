@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notice Board - Sharda Vidyapith</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/4c88e218b5.js" crossorigin="anonymous"></script>
+  <style>
+    
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    main h2 {
+      font-size: 32px;
+      color: #004080;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .notice-board {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .notice {
+      background-color: #fff;
+      border-left: 6px solid #004080;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .notice:hover {
+      transform: translateY(-3px);
+    }
+
+    .notice strong {
+      font-size: 18px;
+      color: #004080;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .notice p {
+      font-size: 16px;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .notice-date {
+      font-size: 14px;
+      color: #888;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+   
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .logo h1 {
+        font-size: 20px;
+      }
+
+      main h2 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="School Logo" />
+      <h1>Sharda Vidyapith</h1>
+    </div>
+        <!-- Hamburger Toggle -->
+<div class="hamburger" id="hamburger">&#9776;</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="teachers.html">Teacher</a></li>
+        <li><a href="results.html">Result</a></li>
+        <li><a href="gallery.html">Gallary</a></li>
+        <li><a href="notice.html">Notice Board</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="ELEARNING WEAB APP/elearning.html">📘 eLearning</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>📢 Notice Board</h2>
+    <div class="notice-board">
+
+      <div class="notice">
+        <strong><i class="fas fa-umbrella-beach"></i> Summer Holidays</strong>
+        <p>School will remain closed from <b>15th May to 15th June 2025</b> due to summer vacations.</p>
+        <div class="notice-date">Posted on: 10-May-2025</div>
+      </div>
+
+      <div class="notice">
+        <strong><i class="fas fa-pen"></i> Class 10 Pre-Board Exam</strong>
+        <p>The pre-board exam begins from <b>1st Feb 2025</b>. Timetable available in class WhatsApp groups or from the office.</p>
+        <div class="notice-date">Posted on: 25-Jan-2025</div>
+      </div>
+
+      <div class="notice">
+        <strong><i class="fas fa-medal"></i> Annual Sports Meet</strong>
+        <p>Annual Sports Meet will be conducted on <b>5th January 2025</b>. All parents and guardians are invited!</p>
+        <div class="notice-date">Posted on: 28-Dec-2024</div>
+      </div>
+
+      <div class="notice">
+        <strong><i class="fas fa-calendar-check"></i> Republic Day Celebration</strong>
+        <p>Join us on <b>26th January 2025</b> at 8:00 AM for the flag hoisting ceremony followed by a cultural program.</p>
+        <div class="notice-date">Posted on: 15-Jan-2025</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sharda Vidyapith. All rights reserved.</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp">
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</body>
+
+<script src="script.js"></script>
+</html>

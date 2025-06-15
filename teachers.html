@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Teachers - Sharda Vidyapith</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/4c88e218b5.js" crossorigin="anonymous"></script>
+</head>
+<style>
+  .teacher-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.teacher-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.teacher-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+</style>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Sharda Vidyapith Logo">
+      <h1>Sharda Vidyapith</h1>
+    </div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="teachers.html">Teacher</a></li>
+        <li><a href="results.html">Result</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="notice.html">Notice Board</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="ELEARNING WEAB APP/elearning.html">📘 eLearning</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="slider">
+    <img src="https://media.assettype.com/barandbench%2F2022-04%2Fb4bfd51a-a13d-4d91-a8ed-e5b07c1793f4%2F10.jpg?w=480&auto=format%2Ccompress&fit=max" alt="School Activities">
+  </div>
+
+  <main style="padding: 40px; max-width: 1200px; margin: auto;">
+    <h1 style="text-align: center;">Our Dedicated Teachers</h1>
+    <p style="text-align: center;">Meet the experienced and qualified faculty members who guide and nurture our students every day.</p>
+
+    <div class="teacher-grid">
+      <!-- Teacher 1 -->
+      <div class="teacher-card">
+        <img src="images/teacher1.jpg" alt="Mrs. Sunita Sharma">
+        <h3>Mrs. Sunita Sharma</h3>
+        <p><strong>Role:</strong> Headmistress & English Teacher</p>
+        <p><strong>Education:</strong> M.A. English, B.Ed</p>
+        <p><strong>Experience:</strong> 15+ years</p>
+        <p><strong>Email:</strong> sunita@sharda.edu.in</p>
+      </div>
+
+      <!-- Teacher 2 -->
+      <div class="teacher-card">
+        <img src="images/teacher2.jpg" alt="Mr. Rajeev Kumar">
+        <h3>Mr. Rajeev Kumar</h3>
+        <p><strong>Role:</strong> Mathematics & Science</p>
+        <p><strong>Education:</strong> M.Sc. Physics, B.Ed</p>
+        <p><strong>Experience:</strong> 10+ years</p>
+        <p><strong>Email:</strong> rajeev@sharda.edu.in</p>
+      </div>
+
+      <!-- Teacher 3 -->
+      <div class="teacher-card">
+        <img src="images/teacher3.jpg" alt="Mrs. Neha Singh">
+        <h3>Mrs. Neha Singh</h3>
+        <p><strong>Role:</strong> Hindi & Social Studies</p>
+        <p><strong>Education:</strong> M.A. Hindi, B.Ed</p>
+        <p><strong>Experience:</strong> 12+ years</p>
+        <p><strong>Email:</strong> neha@sharda.edu.in</p>
+      </div>
+
+      <!-- Teacher 4 -->
+      <div class="teacher-card">
+        <img src="images/teacher4.jpg" alt="Mr. Aman Verma">
+        <h3>Mr. Aman Verma</h3>
+        <p><strong>Role:</strong> Computer & Digital Learning</p>
+        <p><strong>Education:</strong> B.Tech CSE</p>
+        <p><strong>Experience:</strong> 6+ years</p>
+        <p><strong>Email:</strong> aman@sharda.edu.in</p>
+      </div>
+
+      <!-- Teacher 5 -->
+      <div class="teacher-card">
+        <img src="images/teacher5.jpg" alt="Mrs. Kavita Joshi">
+        <h3>Mrs. Kavita Joshi</h3>
+        <p><strong>Role:</strong> Art & Craft</p>
+        <p><strong>Education:</strong> Diploma in Fine Arts</p>
+        <p><strong>Experience:</strong> 8+ years</p>
+        <p><strong>Email:</strong> kavita@sharda.edu.in</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sharda Vidyapith. All rights reserved.</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp">
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

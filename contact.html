@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Sharda Vidyapith</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/4c88e218b5.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 30px 15px;
+  }
+
+  .contact-details {
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-map {
+    width: 100%;
+  }
+
+  .contact-intro h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-info h3, .contact-map h3, .contact-form h3 {
+    font-size: 1.2rem;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 20px 10px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .contact-intro h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-intro p,
+  .contact-info p,
+  .contact-form p {
+    font-size: 0.95rem;
+  }
+
+  .contact-info h3,
+  .contact-map h3,
+  .contact-form h3 {
+    font-size: 1rem;
+  }
+
+  iframe {
+    height: 220px;
+  }
+}
+
+</style>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Sharda Vidyapith Logo"/>
+      <h1>Sharda Vidyapith</h1>
+    </div>
+        <!-- Hamburger Toggle -->
+<div class="hamburger" id="hamburger">&#9776;</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="teachers.html">Teacher</a></li>
+        <li><a href="results.html">Result</a></li>
+        <li><a href="gallery.html">Gallary</a></li>
+        <li><a href="notice.html">Notice Board</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="ELEARNING WEAB APP/elearning.html">📘 eLearning</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-intro">
+      <h2>📞 Contact Us</h2>
+      <p>If you have any questions, feedback, or need help, feel free to reach out to us using the details or form below.</p>
+    </section>
+
+    <section class="contact-details">
+      <div class="contact-info">
+        <h3>📍 Our Address</h3>
+        <p>Main Road, Village XYZ, District ABC, Uttar Pradesh, India - 000000</p>
+
+        <h3>📞 Phone</h3>
+        <p><a href="tel:+919876543210">+91-9876543210</a></p>
+
+        <h3>✉️ Email</h3>
+        <p><a href="mailto:sunrise.school@email.com">sunrise.school@email.com</a></p>
+
+        <h3>🕒 Office Hours</h3>
+        <p>Monday to Saturday: 9:00 AM – 4:00 PM<br>Sunday: Closed</p>
+      </div>
+
+      <div class="contact-map">
+        <h3>🗺️ Find Us on Map</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!..." 
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h3>✍️ Send Us a Message</h3>
+      <p>Please fill out the form below and we'll get back to you shortly.</p>
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXXXXXXXXXXXX/viewform?embedded=true" 
+        width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">
+        Loading…
+      </iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sharda Vidyapith. All rights reserved.</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp">
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharda Vidyapith</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4c88e218b5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="">
+      <h1>Sharda Vidyapith</h1>
+    </div>
+    <!-- Hamburger Toggle -->
+<div class="hamburger" id="hamburger">&#9776;</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="teachers.html">Teacher</a></li>
+        <li><a href="results.html">Result</a></li>
+        <li><a href="gallery.html">Gallary</a></li>
+        <li><a href="notice.html">Notice Board</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="ELEARNING WEAB APP/elearning.html">📘 eLearning</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+    <!-- Image Slider -->
+    <div class="slider-container">
+      <div class="slider" id="slider">
+        <img src="images/home-slide/1.jpg" alt="slide 1" />
+        <img src="images/home-slide/2.jpg" alt="slide 2" />
+        <img src="https://plus.unsplash.com/premium_photo-1682284353484-4e16001c58eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="slide 2" />
+        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="slide 2" />
+      </div>
+      <div class="slider-control">
+        <button onclick="prevSlide()">&#10094;</button>
+        <button onclick="nextSlide()">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <section>
+      <h2>Welcome to Sharda Vidyapith</h2>
+      <p>We are committed to delivering quality education in rural India. Our vision is to develop responsible citizens through academic excellence and values.</p>
+      <a href="admission.html" class="btn">Apply for Admission</a>
+    </section>
+
+    <!-- New: Principal's Message -->
+    <section>
+      <h3>Principal's Message</h3>
+      <p>"At Sharda Vidyapith, we nurture young minds to achieve greatness in all walks of life. We blend traditional values with modern learning tools to empower our students."</p>
+      <p><strong>— Mrs. Kavita Singh, Principal</strong></p>
+    </section>
+
+    <!-- News Section -->
+    <section>
+      <h3>Latest News</h3>
+      <ul>
+        <li>📢 Admission open for 2025-26</li>
+        <li>🏅 Annual Sports Day on 5th July</li>
+        <li>🎨 Drawing Competition results announced</li>
+      </ul>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="feature-box">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <h4>Expert Teachers</h4>
+        <p>Qualified and experienced teachers for every subject.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-book-reader"></i>
+        <h4>eLearning Portal</h4>
+        <p>Access lessons and notes anywhere, anytime.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-school"></i>
+        <h4>Modern Classrooms</h4>
+        <p>Equipped with smart boards and a clean environment.</p>
+      </div>
+    </section>
+
+    <!-- New: Achievements Section -->
+    <section>
+      <h3>Our Achievements</h3>
+      <ul>
+        <li>🏆 State-level Science Olympiad winners (2024)</li>
+        <li>💡 3 student projects selected in Inspire Awards</li>
+        <li>🥇 1st position in District-level Debate Competition</li>
+      </ul>
+    </section>
+
+    <!-- New: School Facilities -->
+    <section class="features">
+      <div class="feature-box">
+        <i class="fas fa-bus"></i>
+        <h4>Transport</h4>
+        <p>Safe school buses with GPS tracking for all routes.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-heartbeat"></i>
+        <h4>Healthcare</h4>
+        <p>In-house medical facility with trained nurse.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-utensils"></i>
+        <h4>Mid-Day Meal</h4>
+        <p>Nutritious meals served to all students daily.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sharda Vidyapith. All rights reserved.</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp">
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  <script src="script.js"></script>
+  <script src="slider.js"></script>
+</body>
+
+</html>
