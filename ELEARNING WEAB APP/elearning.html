@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharda Vidyapith - eLearning</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/4c88e218b5.js" crossorigin="anonymous"></script>
+  <style>
+  
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  color: white;
+}
+
+.btn {
+  background-color: #fff;
+  color: #0083b0;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+/* Class Section */
+.class-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.class-card {
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.class-card:hover {
+  transform: translateY(-5px);
+}
+
+.class-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.class-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0083b0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Notice & Resources Sections */
+.notice-section,
+.resources {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resources ul li {
+  margin: 0.5rem 0;
+}
+
+.resources a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.resources a:hover {
+  text-decoration: underline;
+}
+
+/* 🔁 Responsive Enhancements */
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .class-section {
+    padding: 1.5rem;
+  }
+
+  .class-card {
+    padding: 1rem;
+  }
+
+  .notice-section,
+  .resources {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1,
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .class-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .class-card {
+    padding: 0.8rem;
+  }
+
+  .notice-section,
+  .resources {
+    padding: 1rem;
+  }
+
+  .resources a {
+    font-size: 0.95rem;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="/logo.png" alt="" style="height: 60px; vertical-align: middle;" />
+      <h1 style="display: inline-block; margin-left: 1rem;">Sharda Vidyapith</h1>
+    </div>
+    <div class="hamburger" id="hamburger">&#9776; <span style="font-size: 20px;">Menu Bar</span></div>
+    <nav>
+      <ul>
+        <li><a href="elearning.html">Home</a></li>
+        <li><a href="/index.html">Back to School Website</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to Sharda Vidyapith eLearning Portal</h2>
+      <p>Free and easy access to class-wise study materials, notes, and videos.</p>
+      <a class="btn" href="#classes">Start Learning 📘</a>
+    </section>
+
+    <section class="class-section" id="classes">
+      <h2>Choose Your Class</h2>
+      <div class="class-grid">
+        <div class="class-card">
+          <h3>Class 1</h3>
+          <a href="class1.html">📖 View Materials</a>
+        </div>
+        <div class="class-card">
+          <h3>Class 2</h3>
+          <a href="class2.html">📖 View Materials</a>
+        </div>
+        <div class="class-card">
+          <h3>Class 3</h3>
+          <a href="class3.html">📖 View Materials</a>
+        </div>
+        <div class="class-card">
+          <h3>Class 4</h3>
+          <a href="class4.html">📖 View Materials</a>
+        </div>
+        <div class="class-card">
+          <h3>Class 5</h3>
+          <a href="class5.html">📖 View Materials</a>
+        </div>
+        <!-- Add more classes as needed -->
+      </div>
+    </section>
+
+    <section class="notice-section">
+      <h2>Latest Video Lecture</h2>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section class="resources">
+      <h2>Student Resources</h2>
+      <ul>
+        <li><a href="notes.html">📄 Downloadable Notes</a></li>
+        <li><a href="videos.html">🎥 Recorded Lectures</a></li>
+        <li><a href="assignments.html">📝 Practice Assignments</a></li>
+        <li><a href="quiz.html">❓ Interactive Quizzes</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sharda Vidyapith. All rights reserved.</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp">
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
